@@ -39,7 +39,7 @@ const OrganizationIntro = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-purple-100 to-pink-100 font-['Poppins',sans-serif]">
             {/* Hero Section */}
-            <section className="h-screen flex items-center justify-center text-center px-4">
+            <section className="h-[50vh] flex items-end justify-center text-center px-4">
                 <div>
                     <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">
                         Welcome to NextShines
@@ -62,7 +62,7 @@ const OrganizationIntro = () => {
                     <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-gray-800">
                         About Us
                     </h2>
-                    <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 transform hover:scale-105 transition duration-300">
+                    <div className="bg-white rounded-3xl shadow-sm p-8 sm:p-12 transform hover:scale-105 transition duration-300">
                         <p className="text-xl text-gray-600 mb-8">
                             NextShines is an innovative organization dedicated to creating beautiful and performant web solutions.
                             We're passionate about pushing the boundaries of web development and design, constantly striving to
@@ -86,7 +86,7 @@ const OrganizationIntro = () => {
                     <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-gray-800">
                         Vibrant Loaders
                     </h2>
-                    <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 transform hover:scale-105 transition duration-300">
+                    <div className="bg-white rounded-3xl shadow-sm p-8 sm:p-12 transform hover:scale-105 transition duration-300">
                         <p className="text-xl text-gray-600 mb-8">
                             Introducing our npm package, vibrant-loaders: a collection of beautiful and customizable
                             loading animations for your web projects. Elevate your user experience with our
@@ -123,7 +123,7 @@ const OrganizationIntro = () => {
                         Package Stats
                     </h2>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <div className="bg-white rounded-3xl shadow-xl p-8 transform hover:scale-105 transition duration-300">
+                        <div className="bg-white rounded-3xl shadow-sm p-8 transform hover:scale-105 transition duration-300">
                             <h3 className="text-2xl font-semibold mb-4 text-gray-800">NPM Downloads</h3>
                             <ResponsiveContainer width="100%" height={300}>
                                 <LineChart data={downloadData}>
@@ -136,7 +136,7 @@ const OrganizationIntro = () => {
                                 </LineChart>
                             </ResponsiveContainer>
                         </div>
-                        <div className="bg-white rounded-3xl shadow-xl p-8 transform hover:scale-105 transition duration-300">
+                        <div className="bg-white rounded-3xl shadow-sm p-8 transform hover:scale-105 transition duration-300">
                             <h3 className="text-2xl font-semibold mb-4 text-gray-800">GitHub Stars</h3>
                             <ResponsiveContainer width="100%" height={300}>
                                 <LineChart data={starData}>
@@ -158,7 +158,7 @@ const OrganizationIntro = () => {
                     <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-gray-800">
                         Contribute
                     </h2>
-                    <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 transform hover:scale-105 transition duration-300">
+                    <div className="bg-white rounded-3xl shadow-sm p-8 sm:p-12 transform hover:scale-105 transition duration-300">
                         <p className="text-xl text-gray-600 mb-8">
                             We welcome contributions! If you'd like to improve vibrant-loaders or add new features,
                             please check out our GitHub repository. Your ideas and code can help make this package
